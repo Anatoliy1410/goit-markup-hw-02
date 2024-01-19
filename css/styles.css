@@ -60,6 +60,10 @@ h1 {
 }
 .button {
   background: var(--IRIS, #4d5ae5);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 .button-text {
   font-family: "Roboto", sans-serif;
@@ -72,6 +76,7 @@ h1 {
 .button:hover,
 .button:focus {
   background: var(--OCEAN, #404bbf);
+  cursor: pointer;
 }
 .features {
   background: #fff;
@@ -112,7 +117,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team.job {
+.team-job {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -148,19 +153,19 @@ h1 {
 }
 .logo-footer {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-part-footer {
   color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
