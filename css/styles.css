@@ -50,7 +50,7 @@ address {
 .section-one {
   background: var(--NAVY-BLUE, #2e2f42);
 }
-h1 {
+.busines-title {
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
